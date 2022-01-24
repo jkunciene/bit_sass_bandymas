@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.container img {
+  border-radius: 20px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 30%;
+  width: calc(100vw / 3);
+  padding: 1%;
+  filter: brightness(50%);
+}
+.container img:hover {
+  filter: brightness(110%);
+}/*# sourceMappingURL=style.css.map */
